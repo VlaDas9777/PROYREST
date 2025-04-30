@@ -1,6 +1,6 @@
 # Proyecto Grupal
 primer proyecto en github
 
-# Descripcion
+## Descripcion
 Proyecto de Vladimir, creado en git
 
