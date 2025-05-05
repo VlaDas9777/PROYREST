@@ -4,7 +4,7 @@
 
 }
 
-body{ /*fuente de Letra de la web */
+body{ /*Color de fondo y fuente de la letra*/
     background: lightgoldenrodyellow;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -50,7 +50,7 @@ nav ul li{ /*Menu del dia en filas con float*/
     background: green;
     padding: 40px;
 }
-
+/*CONTENIDO GENERAL DEL MENU DEL DIA */
 .article{
     color: white;
     margin-top: 15px;
@@ -63,9 +63,10 @@ nav ul li{ /*Menu del dia en filas con float*/
     padding-top: 10px;
     border-top: 1px solid #eee;
 }
-
+/*CONTENIDO DE FUENTE Y CENTRADO DEL TITULO MENUDEL DIA*/
 .article h2{
     font-size: 25px;
+    text-align: center;
 }
 
 aside{
