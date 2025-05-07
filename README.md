@@ -2,5 +2,5 @@
 primer proyecto en github
 
 ## Descripcion
-Proyecto de Vladimir, creado en git
+Proyecto de los ingenieros del Meme.
 
