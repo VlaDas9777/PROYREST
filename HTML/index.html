@@ -7,7 +7,20 @@
     <meta charset="utf-8" />
     <title>PROYECTO PEDIDOS RESTAURANTE</title>
     <link rel="stylesheet" href="style.css"/> <!--vincula con archivo CSS-->
+                <script>
+                    function enviarPedido() {
+                        var entrada = document.getElementById("entrada").value;
+                        var segundo = document.getElementById("segundo").value;
 
+                        if (entrada && segundo) {
+                            alert("Pedido enviado:\nEntrada: " + entrada + "\nSegundo: " + segundo);
+                            // Aquí puedes enviar los datos a un servidor si es necesario
+                            window.location.href = "recepcion_pedidos.html"; // Redirigir a la página de recepción de pedidos
+                        } else {
+                            alert("Por favor, selecciona una entrada y un segundo.");
+                        }
+                    }
+                </script>
 </head>
 
 <body> 
@@ -54,7 +67,15 @@
         <section id="content">
             <article class="article">
                 <h2>MENU DEL DIA</h2>
+                <h3>ENTRADA</h3>
                 <br>
+                <select id="entrada">
+                    <option value="">Seleccione una entrada</option>
+                    <option value="Sopa de casa">Sopa de casa</option>
+                    <option value="Huevo a la rusa">Huevo a la rusa</option>
+                    <option value="Salpicón de pollo">Salpicón de pollo</option>
+                </select>
+                <!--<br>
                 <br>
                 <h3>ENTRADA</h3>
                 <br>
@@ -63,11 +84,19 @@
                 <P>Huevo a la rusa</P>
                 <br>
                 <P>Salpicon de pollo</P>
-                <br>
+                <br>-->
+                <br><br>
                 <h3>SEGUNDO</h3>
                 <br>
-                <P>Sopa de casa</P>
-                <br>
+                <select id="segundo">
+                    <option value="">Seleccione un segundo</option>
+                    <option value="Lentejitas">Lentejitas</option>
+                    <option value="Locro con pescado frito o pollo frito">Locro con pescado frito o pollo frito</option>
+                    <option value="Arroz Chaufa">Arroz Chaufa</option>
+                    <option value="Milanesa con papas fritas">Milanesa con papas fritas</option>
+                    <option value="Filete o Chuleta carretillera con papas">Filete o Chuleta carretillera con papas</option>
+                </select>
+                <!--<br>
                 <p>Lentejitas</p>
                 <br>
                 <p>Locro con pescado frito o pollo frito</p>
@@ -78,12 +107,30 @@
                 <br>
                 <p>Filete o Chuleta carretillera con papas</p>
                 <br>
-                <input type="button" value="Envio de Pedido" />
+                <input type="button" value="Envio de Pedido" />-->
+                <br><br>
+                <button onclick="enviarPedido()">Envio de Pedido</button>
                 <br>
-
+                <br>
+                <!--<button onclick="redirigir()">Envio de Pedido</button>
+                <script>
+                    function redirigir() {
+                        window.location.href = "recepcion_pedidos.html"; // Cambia el nombre de la página según tu necesidad
+                    }
+                </script>-->
+                <br>
             </article>
         </section>
-        <!--Barra  lateral-->
+        <!--<body>
+            <button onclick="redirigir()">Envio de Pedido</button>
+
+            <script>
+                function redirigir() {
+                    window.location.href = "recepcion_pedidos.html"; // Cambia el nombre de la página según tu necesidad
+            }
+            </script>
+        </body>
+        <!--BARRA LATERAL-->
         <!--<aside>
             <h2>Barra lateral</h2>
             <form>

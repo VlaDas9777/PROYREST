@@ -44,7 +44,7 @@ nav ul li{
 .clearfix{ 
     clear:both;
 }
-/*Centrado color magen MENU DEL DIA*/
+/*Centrado color imagen de fonfo MENU DEL DIA*/
 #content{
     float: left;
     width: calc(100% - 100px);
