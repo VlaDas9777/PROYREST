@@ -50,21 +50,24 @@ nav ul li{
     width: calc(100% - 100px);
     min-height: 500px;
     background: rgb(197, 130, 6);
-    background-image: url(https://cdn.pixabay.com/photo/2016/12/26/17/28/spaghetti-1932466_960_720.jpg);
+    /*background-image: url(https://cdn.pixabay.com/photo/2016/12/26/17/28/spaghetti-1932466_960_720.jpg);*/
+    /*background-image: url(https://cdn.pixabay.com/photo/2017/02/14/09/02/wood-2065366_1280.jpg);*/
+    /*background-image: url(https://cdn.pixabay.com/photo/2016/11/21/18/14/wall-1846965_1280.jpg);*/
+    background-image: url(https://cdn.pixabay.com/photo/2015/12/03/08/50/paper-1074131_1280.jpg);
     padding: 40px;
 }
 /*CONTENIDO GENERAL DEL MENU DEL DIA */
 .article{
-    color: white;
+    color: rgb(65, 64, 64);
     margin-top: 15px;
     margin-bottom: 15px;
     padding-bottom: 10px;
-    border-bottom: 1px solid #eee;
+    border-bottom: 2px solid #eee;
 }
 
 .article:first-child{
     padding-top: 10px;
-    border-top: 1px solid #eee;
+    border-top: 2px solid #eee;
 }
 /*CONTENIDO DE FUENTE Y CENTRADO DEL TITULO MENUDEL DIA*/
 .article h2{
