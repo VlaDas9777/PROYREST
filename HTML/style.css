@@ -3,8 +3,8 @@
     padding: 0px;
 
 }
-
-body{ /*fuente de Letra de la web */
+/*Color de fondo y fuente de la letra*/
+body{ 
     background: lightgoldenrodyellow;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -14,7 +14,8 @@ body{ /*fuente de Letra de la web */
     margin: 0px auto;
     border: 1px solid black;
 }
-header{ /*titulo en cabecera*/
+/*titulo en cabecera REST EL GUARIQUE DE MAYKE*/
+header{ 
     background: red;
     height: 100px;
     width: 100%;
@@ -22,56 +23,62 @@ header{ /*titulo en cabecera*/
     text-align: center; /*centrar texto*/
     line-height: 100px; /*centrar titulo principal*/
     color: white;
-    border-bottom: 3px dashed black;
+    /*border-bottom: 3px dashed black;*/
+    border-bottom: 1px solid black;
 }
-
-nav{ /*Da color al menu horizontal celeste*/
-    background: lightblue;
+/*Da color al menu horizontal celeste*/
+nav{ 
+    background: white; /*fondo de la barra*/
     height: 50px;
     border-bottom: 1px solid black;
 }
-
-nav ul li{ /*Menu del dia en filas con float*/
-    float: left;
+/*Menu del dia en filas con float*/
+nav ul li{ 
+    float: left; /*floten a la izq*/
     list-style: none;
     margin: 10px;
     line-height: 30px;
 
 }
-
-.clearfix{
+/*Elementos de Menu del dia, entrada y segundo, quedan en su sitio*/
+.clearfix{ 
     clear:both;
 }
-
+/*Centrado color imagen de fonfo MENU DEL DIA*/
 #content{
     float: left;
-    width: calc(80% - 80px);
+    width: calc(100% - 100px);
     min-height: 500px;
-    background: green;
+    background: rgb(197, 130, 6);
+    /*background-image: url(https://cdn.pixabay.com/photo/2016/12/26/17/28/spaghetti-1932466_960_720.jpg);*/
+    /*background-image: url(https://cdn.pixabay.com/photo/2017/02/14/09/02/wood-2065366_1280.jpg);*/
+    /*background-image: url(https://cdn.pixabay.com/photo/2016/11/21/18/14/wall-1846965_1280.jpg);*/
+    background-image: url(https://cdn.pixabay.com/photo/2015/12/03/08/50/paper-1074131_1280.jpg);
     padding: 40px;
 }
-
+/*CONTENIDO GENERAL DEL MENU DEL DIA */
 .article{
-    color: white;
+    color: rgb(65, 64, 64);
     margin-top: 15px;
     margin-bottom: 15px;
     padding-bottom: 10px;
-    border-bottom: 1px solid #eee;
+    border-bottom: 2px solid #eee;
 }
 
 .article:first-child{
     padding-top: 10px;
-    border-top: 1px solid #eee;
+    border-top: 2px solid #eee;
 }
-
+/*CONTENIDO DE FUENTE Y CENTRADO DEL TITULO MENUDEL DIA*/
 .article h2{
     font-size: 25px;
+    text-align: center;
 }
 
 aside{
     float: left;
     width: calc(20% - 20px);
-    background: orange;
+    background: green;
     min-height: 500px;
     padding-left: 10px;
     padding-right: 10px;
@@ -85,3 +92,4 @@ footer{
     height: 50px;
     line-height: 50px;
 }
+
